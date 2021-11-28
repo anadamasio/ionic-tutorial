@@ -10,6 +10,10 @@
                 </ion-buttons>
 
                 <ion-title>{{ pageTitle }}</ion-title>
+
+                <ion-buttons slot="end">
+                    <slot name="actions-end"></slot>
+                </ion-buttons>
             </ion-toolbar>
         </ion-header>
 
